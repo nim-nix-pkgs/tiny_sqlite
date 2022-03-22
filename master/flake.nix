@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-tiny_sqlite-master.flake = false;
+  inputs.src-tiny_sqlite-master.ref   = "refs/heads/master";
   inputs.src-tiny_sqlite-master.owner = "GULPF";
-  inputs.src-tiny_sqlite-master.ref   = "master";
   inputs.src-tiny_sqlite-master.repo  = "tiny_sqlite";
   inputs.src-tiny_sqlite-master.type  = "github";
   
