@@ -11,7 +11,6 @@
   inputs.src-tiny_sqlite-master.ref   = "refs/heads/master";
   inputs.src-tiny_sqlite-master.owner = "GULPF";
   inputs.src-tiny_sqlite-master.repo  = "tiny_sqlite";
-  inputs.src-tiny_sqlite-master.dir   = "";
   inputs.src-tiny_sqlite-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
