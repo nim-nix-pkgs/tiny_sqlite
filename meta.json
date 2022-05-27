@@ -93,6 +93,8 @@
   "web": "https://github.com/GULPF/tiny_sqlite",
   "refs": [
     "refs/heads/address-feedback",
+    "refs/heads/ci-windows",
+    "refs/heads/feat/sqlite3-abi",
     "refs/heads/fix-workflow",
     "refs/heads/master",
     "refs/heads/nim-v1-support",
